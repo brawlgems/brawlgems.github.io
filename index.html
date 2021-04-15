@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://cdpn.io/Pavlenkovik/fullpage/QroJRV -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+<link rel="mask-icon" type="" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+
+
+  <title>Login &amp;</title>
+  
+  
+  
+  
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no">
+  <p>Введите логин: <input type="text" id="login"></p>
+ <p>Введите пароль: <input type="password" id="password"></p>
+ <button id="entry" "="">Войти</button>
+ <hr>
+ <p id="out"></p>
+    <script src="./pass.js"></script>
+
+  
+      <script id="rendered-js">
+document.getElementById('entry').onclick = function () {
+  let login = document.getElementById('login').value;
+  let password = document.getElementById('password').value;
+  let out = document.getElementById('out');
+
+  if (login === 'admin' && password === 'brawlgem7sf3ht7a1' ||
+  login === 'brawlgem' && password === '87hfu8yj98tg4h8y' ||
+  login === 'site' && password === 'bsg76ghfh7') {
+    out.innerHTML = 'Успешно! Перейдите по ссылке: brawlgem.tk/brawlgemadmin.html';
+  } else
+
+  {
+    out.innerHTML = 'Ошибка входа';
+  }
+};
+//# sourceURL=pen.js
+    </script>
+
+  
+
+
+
+
+ 
+</body></html>
